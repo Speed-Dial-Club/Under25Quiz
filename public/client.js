@@ -115,9 +115,8 @@ function show(view, entry = null) {
     return;
   }
   if (view === 'home') {
-    app.innerHTML = `<section class="hero"><div><div class="eyebrow">Quiz Night</div>
+    app.innerHTML = `<section class="hero"><div><div class="eyebrow">Under25 Quiz | SAC @ Poornima</div>
       <h1>Bring your<br>people. <em>Play.</em></h1>
-      <p class="intro">Host a live quiz or join one with a room code.</p>
       <div class="buttons"><button class="btn btn-dark" data-action="create">Create a quiz ↗</button>
         <button class="btn btn-light" data-action="join">I have a code</button></div>
       <button class="text-btn saved-home-link" data-action="saved">My quizzes →</button></div>
