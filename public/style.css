@@ -230,3 +230,10 @@ button:focus-visible, .file-pick:focus-within { outline: 3px solid #6751da; outl
   .projector-qr { width: min(92%, 48vh); }
   .projector-manual { margin-top: 10px; }
 }
+
+.hero .art .float-a {
+  position: static;
+  margin-bottom: 16px;
+  transform: none;
+  z-index: 1;
+}
